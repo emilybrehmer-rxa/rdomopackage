@@ -1,0 +1,18 @@
+Package: rdomo.package
+Title: rdomo library utility package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Emily", "Brehmer", , "emily.brehmer@rxa.io", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Uses the rdomo library to setup a connection to domo that will then allow use to import or export datasets.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+  rdomo (>= 0.1.0)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
